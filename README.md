@@ -8,3 +8,7 @@ Bootstrap Rails JSON API Microservice
 `bundle install`
 
 `bin/rails g scaffold campaigns title:string body:text`
+
+`rails generate rspec:install`
+
+`bundle exec guard init`
